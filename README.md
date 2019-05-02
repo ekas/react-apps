@@ -1,2 +1,2 @@
-# es6
-ES6 Syntax and Concepts
+# React & React Native Apps
+Collection of React and React Native Apps
