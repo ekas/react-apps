@@ -82,3 +82,10 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Expo Hidden Folder
+.expo/
+
+# VS Code Settings Folder
+.vscode/
+
