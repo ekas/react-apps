@@ -8,5 +8,6 @@ EStyleSheet.build({
   $lightGray: '#F0F0F0',
   $inputText: '#797979',
   $border: '#E2E2E2',
+  // $outline: 1,
 });
 export default () => <Home />;
