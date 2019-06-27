@@ -15,7 +15,7 @@ export default EStyleSheet.create({
     color: '$darkText',
   },
   separator: {
-    marginLeft: 20,
+    marginHorizontal: 20,
     backgroundColor: '$border',
     flex: 1,
     height: 2,
