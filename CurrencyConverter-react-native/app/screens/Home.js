@@ -44,6 +44,8 @@ class Home extends Component {
 
   handleOptionsPress = () => {
     console.log('Handles option pressed');
+    const { navigation } = this.props;
+    navigation.navigate('Options', { title: 'Options' });
   };
 
   render() {
