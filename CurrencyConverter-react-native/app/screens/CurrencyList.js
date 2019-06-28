@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   FlatList, View, StatusBar,
 } from 'react-native';
@@ -11,13 +12,19 @@ import currencies from '../data/currencies';
 const TEMP_CURRENT_CURRENCY = 'CAD';
 
 class CurrencyList extends Component {
+  static propTypes = {
+    navigation: PropTypes.object,
+  };
+
   handlePress = () => {
     console.log('row pressed');
+    const { navigation } = this.props;
+    navigation.goBack(null);
   };
 
   render() {
     return (
-      <View style={{ flex: 1, marginTop: 30 }}>
+      <View style={{ flex: 1 }}>
         <StatusBar barStyle="default" translucent={false} />
         <FlatList
           data={currencies}

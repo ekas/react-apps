@@ -12,11 +12,14 @@
     "@expo/vector-icons": "6.2.0",
     "color": "3.0.0",
     "expo": "^32.0.0",
+    "hoist-non-react-statics": "3.0.1",
     "moment": "2.18.1",
     "prop-types": "^15.7.2",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
-    "react-native-extended-stylesheet": "0.11.2"
+    "react-native-dropdownalert": "3.1.2",
+    "react-native-extended-stylesheet": "0.11.2",
+    "react-navigation": "2.5.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -28,6 +31,5 @@
     "eslint-plugin-react": "^7.13.0",
     "prettier": "^1.17.0",
     "prettier-eslint": "^8.8.2"
-  },
-  "private": true
+  }
 }
