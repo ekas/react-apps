@@ -1,6 +1,9 @@
+/* eslint-disable no-alert */
 /* eslint-disable no-console */
 import React, { Component } from 'react';
-import { ScrollView, StatusBar, Platform } from 'react-native';
+import {
+  ScrollView, StatusBar, Platform, Linking,
+} from 'react-native';
 import PropTypes from 'prop-types';
 import { Ionicons } from '@expo/vector-icons';
 import { ListItem, Separator } from '../components/List';
@@ -22,8 +25,7 @@ class Options extends Component {
 
   handlePressSite = () => {
     console.log('press site');
-    const { navigation } = this.props;
-    navigation.goBack(null);
+    Linking.openURL('https://fixer.io/').catch(() => alert('Contact Administrator'));
   };
 
   render() {
