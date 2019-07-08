@@ -28,7 +28,7 @@ export default class App extends Component {
       let result = await ImagePicker.launchImageLibraryAsync({
         allowsEditing: false,
       });
-
+      console.log(result);
       if (!result.cancelled) {
         let { photoUri } = this.state;
         photoUri.push(result.uri);
@@ -40,15 +40,13 @@ export default class App extends Component {
 
   _renderPhotos(photoUri) {
     let images = [];
-    for (let uri of photoUri) {
-      images.push(
-        <Image
-          source={{ uri: uri }}
-          resizeMode="contain"
-          style={{ height: 100, width: 100, resizeMode: 'contain' }}
-        />
-      );
-    }
+    photoUri.map((uri, index) => images.push(
+      <Image key={index}
+        source={{ uri: uri }}
+        resizeMode="contain"
+        style={{ height: 100, width: 100, resizeMode: 'contain' }}
+      />
+    ));
     return images;
   }
 }
