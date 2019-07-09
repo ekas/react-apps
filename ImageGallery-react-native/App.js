@@ -11,7 +11,7 @@ export default class App extends Component {
     let { photoUri } = this.state;
     return (
       <ScrollView style={styles.container}>
-        <Button styles={styles.imagePicker}
+        <Button
           title="Pick an image from camera roll"
           onPress={this._pickImage}
         />
@@ -60,15 +60,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
+    backgroundColor: '#FDFFFC',
     alignContent: 'center',
-  },
-  imagePicker: {
-    margin: 24,
-    fontSize: 18,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    color: '#34495e',
   },
   text: {
     margin: 24,
@@ -79,15 +72,15 @@ const styles = StyleSheet.create({
   },
   galleryImg: {
     height: 150, 
-    width: imageWidth - 40, 
+    width: imageWidth - 30, 
     resizeMode: 'cover',
   },
   imageContainer: {
     marginVertical: 10 ,
     marginHorizontal: 5,
-    padding: 10,
+    padding: 0,
     borderRadius: 4,
-    borderWidth: 5,
-    borderColor: '#000',
+    borderWidth: 10,
+    borderColor: '#5D737E',
   }
 });
