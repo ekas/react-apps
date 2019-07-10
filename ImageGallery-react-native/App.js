@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
-import { Image, ScrollView, StyleSheet, Text, Button, Dimensions, View } from 'react-native';
+import { Image, ScrollView, StyleSheet, Button, Dimensions, View } from 'react-native';
 import { Constants, Permissions,ImagePicker } from 'expo';
 
-const imageWidth = Dimensions.get('window').width;
-
 export default class App extends Component {
-  state = { photoUri: [] };
+  state = { 
+    photoUri: [] 
+  };
 
   render() {
-    let { photoUri } = this.state;
+    const { photoUri } = this.state;
     return (
       <ScrollView style={styles.container}>
         <Button
-          title="Pick an image from camera roll"
+          title="Open photos"
           onPress={this._pickImage}
         />
-        {photoUri.length != 0 ? (
+        { 
           this._renderPhotos(photoUri)
-        ) : (
-          <Text style={styles.text}>No Images</Text>
-        )}
+        }
       </ScrollView>
     );
   }
@@ -28,17 +26,16 @@ export default class App extends Component {
     const { status } = await Permissions.askAsync(Permissions.CAMERA_ROLL);
     if (status === 'granted') {
       let result = await ImagePicker.launchImageLibraryAsync({
-        allowsEditing: false,
+        allowsEditing: false
       });
-      console.log(result);
+      
       if (!result.cancelled) {
         let { photoUri } = this.state;
         photoUri.push(result.uri);
         this.setState({ photoUri: photoUri  });
       }
-    }
-    
-  };
+    }    
+  }
 
   _renderPhotos(photoUri) {
     let images = [];
@@ -47,7 +44,7 @@ export default class App extends Component {
         <Image
           source={{ uri: uri }}
           resizeMode="contain"
-          style={ styles.galleryImg }
+          style={{width:250, height: 250, borderColor: "#000" }}
         />
       </View>
     ));
@@ -70,17 +67,10 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#34495e',
   },
-  galleryImg: {
-    height: 150, 
-    width: imageWidth - 30, 
-    resizeMode: 'cover',
-  },
   imageContainer: {
     marginVertical: 10 ,
     marginHorizontal: 5,
     padding: 0,
-    borderRadius: 4,
-    borderWidth: 10,
-    borderColor: '#5D737E',
+    borderRadius: 4
   }
 });
