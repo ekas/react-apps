@@ -11,12 +11,12 @@ import { ListItem, Separator } from '../components/List';
 import currencies from '../data/currencies';
 import { changeBaseCurrency, changeQuoteCurrency } from '../actions/currencies';
 
-const TEMP_CURRENT_CURRENCY = 'CAD';
-
 class CurrencyList extends Component {
   static propTypes = {
     navigation: PropTypes.object,
     dispatch: PropTypes.func,
+    baseCurrency: PropTypes.string,
+    quoteCurrency: PropTypes.string,
   };
 
   handlePress = (currency) => {
@@ -32,6 +32,12 @@ class CurrencyList extends Component {
   };
 
   render() {
+    const { navigation, baseCurrency, quoteCurrency } = this.props;
+    const { type } = navigation.state.params;
+    let comparisonCurrency = baseCurrency;
+    if (type === 'quote') {
+      comparisonCurrency = quoteCurrency;
+    }
     return (
       <View style={{ flex: 1 }}>
         <StatusBar barStyle="default" translucent={false} />
@@ -40,7 +46,7 @@ class CurrencyList extends Component {
           renderItem={({ item }) => (
             <ListItem
               text={item}
-              selected={item === TEMP_CURRENT_CURRENCY}
+              selected={item === comparisonCurrency}
               onPress={() => this.handlePress(item)}
             />
           )}
@@ -52,4 +58,9 @@ class CurrencyList extends Component {
   }
 }
 
-export default connect()(CurrencyList);
+const mapStateToProps = state => ({
+  baseCurrency: state.currencies.baseCurrency,
+  quoteCurrency: state.currencies.quoteCurrency,
+});
+
+export default connect(mapStateToProps)(CurrencyList);
