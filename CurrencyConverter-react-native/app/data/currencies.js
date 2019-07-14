@@ -1,4 +1,5 @@
 export default [
+  'INR',
   'AUD',
   'BGN',
   'BRL',
