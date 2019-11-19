@@ -1,0 +1,75 @@
+.calendar {
+  height: calc(100% - 55px);
+
+  .week {
+    border-top: solid 1px #cccccc;
+  }
+  .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    height: 80px;
+    border-left: solid 1px #cccccc;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #5b5d60;
+    background-color: #ffffff;
+  }
+  .day:first-child {
+    border-left: solid 1px #e9edef;
+  }
+  .different-month {
+    color: #b6bac1;
+    background-color: #f8f8f8;
+  }
+  .calendar-row {
+    display: flex;
+    width: 100%;
+  }
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .month-display {
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      color: #6a7180;
+      border-bottom: solid 1px #cccccc;
+      .month-label {
+        text-align: center;
+        flex: 1;
+        font-size: 19px;
+        font-weight: 700;
+      }
+      .arrow {
+        margin: 0 10px;
+        border-radius: 50%;
+        padding: 4px 8px;
+        background-color: #fff;
+        cursor: pointer;
+      }
+    }
+    .day-names {
+      font-weight: 500;
+      cursor: default;
+      font-size: 12px;
+      .day {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1;
+        height: 20px;
+        border-left: solid 1px #9b9797;
+        cursor: pointer;
+        transition: all 0.2s;
+        color: #6a7180;
+        background-color: #d2d6df;
+      }
+      .day:first-child {
+        border-left: solid 1px #e9edef;
+      }
+    }
+  }
+}
