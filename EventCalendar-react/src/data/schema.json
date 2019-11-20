@@ -1,0 +1,139 @@
+{
+  "2019": {
+    "11": {
+      "15": [
+        {
+          "eventType": "vanhackathon",
+          "title": "VanHackathon",
+          "description": "",
+          "startDate": "2",
+          "endDate": "4",
+          "deadline": "03/11/2019"
+        }
+      ],
+      "16": [
+        {
+          "eventType": "vanhackathon",
+          "title": "VanHackathon",
+          "description": "",
+          "startDate": "2",
+          "endDate": "4",
+          "deadline": "03/11/2019"
+        }
+      ],
+      "17": [
+        {
+          "eventType": "vanhackathon",
+          "title": "VanHackathon",
+          "description": "",
+          "startDate": "2",
+          "endDate": "4",
+          "deadline": "03/11/2019"
+        }
+      ],
+      "18": [
+        {
+          "eventType": "vanhackathon",
+          "title": "VanHackathon",
+          "description": "",
+          "startDate": "2",
+          "endDate": "4",
+          "deadline": "03/11/2019"
+        }
+      ],
+      "19": [
+        {
+          "eventType": "vanhackathon",
+          "title": "VanHackathon",
+          "description": "",
+          "startDate": "2",
+          "endDate": "4",
+          "deadline": "03/11/2019"
+        }
+      ],
+      "20": [
+        {
+          "eventType": "vanhackathon",
+          "title": "VanHackathon",
+          "description": "",
+          "startDate": "2",
+          "endDate": "4",
+          "deadline": "03/11/2019"
+        }
+      ],
+      "21": [
+        {
+          "eventType": "vanhackathon",
+          "title": "VanHackathon",
+          "description": "",
+          "startDate": "2",
+          "endDate": "4",
+          "deadline": "03/11/2019"
+        }
+      ],
+      "22": [
+        {
+          "eventType": "vanhackathon",
+          "title": "VanHackathon",
+          "description": "",
+          "startDate": "2",
+          "endDate": "4",
+          "deadline": "03/11/2019"
+        }
+      ]
+    },
+    "12": {
+      "2": [
+        {
+          "eventType": "leap",
+          "title": "Leap Vancouver - Job Fair",
+          "description": "VanHack is bringing to Vancouver on 2 until 4 December a Leap for Tech Talents who want to fuel the growth of Canada's tech market. Some of the best companies in Canada will be attending the fair, in hopes of filling over 40 positions.",
+          "startDate": "2",
+          "endDate": "4"
+        }
+      ],
+      "3": [
+        {
+          "eventType": "leap",
+          "title": "Leap Vancouver - Job Fair",
+          "description": "VanHack is bringing to Vancouver on 2 until 4 December a Leap for Tech Talents who want to fuel the growth of Canada's tech market. Some of the best companies in Canada will be attending the fair, in hopes of filling over 40 positions.",
+          "startDate": "2",
+          "endDate": "4"
+        }
+      ],
+      "4": [
+        {
+          "eventType": "leap",
+          "title": "Leap Vancouver - Job Fair",
+          "description": "VanHack is bringing to Vancouver on 2 until 4 December a Leap for Tech Talents who want to fuel the growth of Canada's tech market. Some of the best companies in Canada will be attending the fair, in hopes of filling over 40 positions.",
+          "startDate": "2",
+          "endDate": "4"
+        }
+      ]
+    }
+  },
+  "2020": {
+    "1": {
+      "1": [
+        {
+          "eventType": "vanhackathon",
+          "title": "VanHackathon",
+          "description": "",
+          "startDate": "2",
+          "endDate": "4",
+          "deadline": "03/11/2019",
+          "isPremium": true
+        },
+        {
+            "eventType": "relocationsummit",
+            "title": "VanHackathon",
+            "description": "",
+            "startDate": "2",
+            "endDate": "4",
+            "deadline": "03/11/2019",
+            "isPremium": true
+          }
+      ]
+    }
+  }
+}

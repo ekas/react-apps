@@ -23,15 +23,15 @@
   }
   .day-text {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 15px;
     margin: 2px 2px 0 0;
   }
   .different-month {
     color: #b6bac1;
     background-color: #f8f8f8;
   }
-  .today{
-    background-color: #F6FCFF;
+  .today {
+    background-color: #f6fcff;
     .day-text {
       background-color: #1297df;
       color: #fff;
@@ -40,7 +40,7 @@
       margin-bottom: 2px;
     }
   }
-  
+
   .calendar-row {
     display: flex;
     width: 100%;
@@ -91,36 +91,9 @@
     }
   }
 }
-
-
 .eventContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  .event {
-    flex: 1;
-    width: 92%;
-    background-color: #E1D9FF;
-    margin: 5px auto;
-    border-top: solid 2px #5F5FFE;
-    color: #5F5FFE;
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-    .eventType {
-      background-color: #5F5FFE;
-      color: #fff;
-      padding: 1px 4px;
-      font-size: 13px;
-      font-weight: 600;
-      border-radius: 2px;
-      margin: 0 3px;
-    }
-    
-    .eventText {
-      font-size: 13px;
-      font-weight: 600;
-    }
-  }
 }

@@ -1,3 +1,5 @@
+@import "../public/variables.scss";
+
 .App,
 html,
 body {
@@ -63,5 +65,22 @@ body {
     border-top-right-radius: 7px;
     border-top: solid 2px #dbe4ec;
     margin-top: -2px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .calendar-marker {
+      margin-right: 10px;
+      .eventType {
+        padding: 4px 9px;
+        font-weight: 600;
+        border-radius: 2px;
+      }
+      .premium {
+        border-top: solid 2px $calendar-premium-pri-color;
+        background-color: $calendar-premium-sec-color;
+        color: $calendar-premium-pri-color;
+      }
+    }
   }
 }

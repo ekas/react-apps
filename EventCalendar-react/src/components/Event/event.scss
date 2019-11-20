@@ -1,0 +1,72 @@
+@import "../../../public/variables.scss";
+
+.event {
+  flex: 1;
+  width: 92%;
+  margin: 5px auto;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .eventType {
+    text-transform: uppercase;
+    padding: 1px 4px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 2px;
+    margin: 0 3px;
+    color: #fff;
+  }
+  .eventText {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .eventPremium {
+    position: absolute;
+    top: -7px;
+    right: -2px;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: $calendar-premium-sec-color;
+    border: solid 2px $calendar-premium-pri-color;
+  }
+}
+
+@mixin color-event-block($primary, $secondary) {
+  border-top: solid 2px $primary;
+  color: $primary;
+  background-color: $secondary;
+  .eventType {
+    background-color: $primary;
+  }
+}
+.faded {
+    opacity: 0.4;
+}
+.leap {
+  @include color-event-block(
+    $calendar-leap-pri-color,
+    $calendar-leap-sec-color
+  );
+}
+.vanhackathon {
+  @include color-event-block($calendar-van-pri-color, $calendar-van-sec-color);
+}
+.relocationsummit {
+  @include color-event-block(
+    $calendar-relocationsummit-pri-color,
+    $calendar-relocationsummit-sec-color
+  );
+}
+.webinar {
+  @include color-event-block(
+    $calendar-webinar-pri-color,
+    $calendar-webinar-sec-color
+  );
+}
+.meetup {
+  @include color-event-block(
+    $calendar-meetup-pri-color,
+    $calendar-meetup-sec-color
+  );
+}

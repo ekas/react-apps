@@ -15,7 +15,7 @@ export default class Header extends Component {
           <span>Jobs Pipeline</span>
           <span>Slack</span>
           <span>Referral</span>
-          <span>More ^</span>
+          <span>More</span>
         </span>
         <span className="profile">P</span>
       </div>
