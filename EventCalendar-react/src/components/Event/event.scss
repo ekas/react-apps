@@ -74,7 +74,7 @@
 
 .popover-container {
   width: 400px;
-  max-height: 175px;
+  max-height: 500px;
   background-color: #fff;
   padding: 20px 20px;
   border-radius: 10px;
@@ -101,7 +101,9 @@
       font-weight: 600;
       overflow-wrap: break-word;
       word-wrap: break-word;
-      hyphens: auto;
+    }
+    .popover-close {
+      cursor: pointer;
     }
     .popover-heading {
       display: flex;
@@ -110,6 +112,8 @@
       background-color: #fff;
     }
     .popover-deadline {
+      font-weight: 600;
+      font-size: 15px;
       margin: 5px 0;
     }
     .popover-content {
@@ -126,6 +130,7 @@
         padding: 6px 15px;
         color: #1297df;
         border-radius: 4px;
+        margin-left: 5px;
       }
       .popover-apply:hover {
         background-color: #1297df;

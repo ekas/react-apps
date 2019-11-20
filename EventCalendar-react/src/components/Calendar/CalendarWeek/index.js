@@ -18,7 +18,7 @@ export default class CalendarWeek extends Component {
       };
       days.push(
         <CalendarDay
-          key={day.date}
+          key={Math.random()}
           day={day}
           selected={selected}
           select={select}
@@ -30,7 +30,7 @@ export default class CalendarWeek extends Component {
     }
 
     return (
-      <div className="calendar-row week" key={days[0]}>
+      <div className="calendar-row week" key={Math.random()}>
         {days}
       </div>
     );

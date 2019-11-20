@@ -10,8 +10,8 @@ export default class CalendarDay extends Component {
       events.forEach(event => {
         eventArr.push(
           <Event
-            key={date}
-            eventObj={events}
+            key={Math.random()}
+            eventObj={event}
             type={event.eventType}
             title={event.title}
             faded={isCurrentMonth ? false : true}
@@ -40,7 +40,6 @@ export default class CalendarDay extends Component {
 
     return (
       <span
-        key={date.toString()}
         className={
           "day" +
           (isToday ? " today" : "") +

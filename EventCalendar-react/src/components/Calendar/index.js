@@ -59,7 +59,7 @@ export default class Calendar extends Component {
     while (!done) {
       weeks.push(
         <CalendarWeek
-          key={date}
+          key={Math.random()}
           date={date.clone()}
           month={month}
           // select={day => this.select(day)}

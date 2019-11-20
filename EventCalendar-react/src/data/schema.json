@@ -1,11 +1,32 @@
 {
   "2019": {
     "11": {
+      "4": [
+        {
+          "eventType": "webinar",
+          "title": "Webinar with Rohan from Vanhack",
+          "description": "To get prepared for Tech Interview",
+          "startDate": "4",
+          "endDate": "4",
+          "deadline": "02/11/2019"
+        }
+      ],
+      "10": [
+        {
+          "eventType": "meetup",
+          "title": "Meeting with fellow Vanhackers",
+          "description": "To ask all your doubts related VanHack Premium",
+          "startDate": "4",
+          "endDate": "4",
+          "deadline": "02/11/2019",
+          "isPremium": true
+        }
+      ],
       "15": [
         {
           "eventType": "vanhackathon",
           "title": "VanHackathon",
-          "description": "",
+          "description": "At VanHackathon, you’ll have the opportunity to develop a project for Canadian and European companies looking to hire international talent (yes, they do provide visa sponsorship + relocation!). During the week-long event, you will engage daily with the company via Slack, webinars, and a project demo meeting, all while collaborating with other VanHackers.",
           "startDate": "2",
           "endDate": "4",
           "deadline": "03/11/2019"
@@ -15,7 +36,7 @@
         {
           "eventType": "vanhackathon",
           "title": "VanHackathon",
-          "description": "",
+          "description": "At VanHackathon, you’ll have the opportunity to develop a project for Canadian and European companies looking to hire international talent (yes, they do provide visa sponsorship + relocation!). During the week-long event, you will engage daily with the company via Slack, webinars, and a project demo meeting, all while collaborating with other VanHackers.",
           "startDate": "2",
           "endDate": "4",
           "deadline": "03/11/2019"
@@ -25,7 +46,7 @@
         {
           "eventType": "vanhackathon",
           "title": "VanHackathon",
-          "description": "",
+          "description": "At VanHackathon, you’ll have the opportunity to develop a project for Canadian and European companies looking to hire international talent (yes, they do provide visa sponsorship + relocation!). During the week-long event, you will engage daily with the company via Slack, webinars, and a project demo meeting, all while collaborating with other VanHackers.",
           "startDate": "2",
           "endDate": "4",
           "deadline": "03/11/2019"
@@ -35,7 +56,7 @@
         {
           "eventType": "vanhackathon",
           "title": "VanHackathon",
-          "description": "",
+          "description": "At VanHackathon, you’ll have the opportunity to develop a project for Canadian and European companies looking to hire international talent (yes, they do provide visa sponsorship + relocation!). During the week-long event, you will engage daily with the company via Slack, webinars, and a project demo meeting, all while collaborating with other VanHackers.",
           "startDate": "2",
           "endDate": "4",
           "deadline": "03/11/2019"
@@ -45,7 +66,7 @@
         {
           "eventType": "vanhackathon",
           "title": "VanHackathon",
-          "description": "",
+          "description": "At VanHackathon, you’ll have the opportunity to develop a project for Canadian and European companies looking to hire international talent (yes, they do provide visa sponsorship + relocation!). During the week-long event, you will engage daily with the company via Slack, webinars, and a project demo meeting, all while collaborating with other VanHackers.",
           "startDate": "2",
           "endDate": "4",
           "deadline": "03/11/2019"
@@ -55,7 +76,7 @@
         {
           "eventType": "vanhackathon",
           "title": "VanHackathon",
-          "description": "",
+          "description": "At VanHackathon, you’ll have the opportunity to develop a project for Canadian and European companies looking to hire international talent (yes, they do provide visa sponsorship + relocation!). During the week-long event, you will engage daily with the company via Slack, webinars, and a project demo meeting, all while collaborating with other VanHackers.",
           "startDate": "2",
           "endDate": "4",
           "deadline": "03/11/2019"
@@ -65,7 +86,7 @@
         {
           "eventType": "vanhackathon",
           "title": "VanHackathon",
-          "description": "",
+          "description": "At VanHackathon, you’ll have the opportunity to develop a project for Canadian and European companies looking to hire international talent (yes, they do provide visa sponsorship + relocation!). During the week-long event, you will engage daily with the company via Slack, webinars, and a project demo meeting, all while collaborating with other VanHackers.",
           "startDate": "2",
           "endDate": "4",
           "deadline": "03/11/2019"
@@ -75,21 +96,80 @@
         {
           "eventType": "vanhackathon",
           "title": "VanHackathon",
-          "description": "",
+          "description": "At VanHackathon, you’ll have the opportunity to develop a project for Canadian and European companies looking to hire international talent (yes, they do provide visa sponsorship + relocation!). During the week-long event, you will engage daily with the company via Slack, webinars, and a project demo meeting, all while collaborating with other VanHackers.",
           "startDate": "2",
           "endDate": "4",
           "deadline": "03/11/2019"
         }
+      ],
+      "27": [
+        {
+          "eventType": "relocationsummit",
+          "title": "Relocation Summit 2019 - Vancouver, Canada",
+          "description": "The new edition of VanHack Relocation Summit brings together insights and lessons from exceptional leaders, makers, and innovators in the international tech market - for 8 days of inspired conversation and purposeful networking.",
+          "startDate": "27",
+          "endDate": "4",
+          "deadline": "26/11/2019"
+        }
+      ],
+      "28": [
+        {
+          "eventType": "relocationsummit",
+          "title": "Relocation Summit 2019 - Vancouver, Canada",
+          "description": "The new edition of VanHack Relocation Summit brings together insights and lessons from exceptional leaders, makers, and innovators in the international tech market - for 8 days of inspired conversation and purposeful networking.",
+          "startDate": "27",
+          "endDate": "4",
+          "deadline": "26/11/2019"
+        }
+      ],
+      "29": [
+        {
+          "eventType": "relocationsummit",
+          "title": "Relocation Summit 2019 - Vancouver, Canada",
+          "description": "The new edition of VanHack Relocation Summit brings together insights and lessons from exceptional leaders, makers, and innovators in the international tech market - for 8 days of inspired conversation and purposeful networking.",
+          "startDate": "27",
+          "endDate": "4",
+          "deadline": "26/11/2019"
+        }
+      ],
+      "30": [
+        {
+          "eventType": "relocationsummit",
+          "title": "Relocation Summit 2019 - Vancouver, Canada",
+          "description": "The new edition of VanHack Relocation Summit brings together insights and lessons from exceptional leaders, makers, and innovators in the international tech market - for 8 days of inspired conversation and purposeful networking.",
+          "startDate": "27",
+          "endDate": "4",
+          "deadline": "26/11/2019"
+        }
       ]
     },
     "12": {
+      "1": [
+        {
+          "eventType": "relocationsummit",
+          "title": "Relocation Summit 2019 - Vancouver, Canada",
+          "description": "The new edition of VanHack Relocation Summit brings together insights and lessons from exceptional leaders, makers, and innovators in the international tech market - for 8 days of inspired conversation and purposeful networking.",
+          "startDate": "27",
+          "endDate": "4",
+          "deadline": "26/11/2019"
+        }
+      ],
       "2": [
         {
           "eventType": "leap",
           "title": "Leap Vancouver - Job Fair",
           "description": "VanHack is bringing to Vancouver on 2 until 4 December a Leap for Tech Talents who want to fuel the growth of Canada's tech market. Some of the best companies in Canada will be attending the fair, in hopes of filling over 40 positions.",
           "startDate": "2",
-          "endDate": "4"
+          "endDate": "4",
+          "deadline": "10/11/2019"
+        },
+        {
+          "eventType": "relocationsummit",
+          "title": "Relocation Summit 2019 - Vancouver, Canada",
+          "description": "The new edition of VanHack Relocation Summit brings together insights and lessons from exceptional leaders, makers, and innovators in the international tech market - for 8 days of inspired conversation and purposeful networking.",
+          "startDate": "27",
+          "endDate": "4",
+          "deadline": "26/11/2019"
         }
       ],
       "3": [
@@ -98,7 +178,16 @@
           "title": "Leap Vancouver - Job Fair",
           "description": "VanHack is bringing to Vancouver on 2 until 4 December a Leap for Tech Talents who want to fuel the growth of Canada's tech market. Some of the best companies in Canada will be attending the fair, in hopes of filling over 40 positions.",
           "startDate": "2",
-          "endDate": "4"
+          "endDate": "4",
+          "deadline": "10/11/2019"
+        },
+        {
+          "eventType": "relocationsummit",
+          "title": "Relocation Summit 2019 - Vancouver, Canada",
+          "description": "The new edition of VanHack Relocation Summit brings together insights and lessons from exceptional leaders, makers, and innovators in the international tech market - for 8 days of inspired conversation and purposeful networking.",
+          "startDate": "27",
+          "endDate": "4",
+          "deadline": "26/11/2019"
         }
       ],
       "4": [
@@ -107,32 +196,101 @@
           "title": "Leap Vancouver - Job Fair",
           "description": "VanHack is bringing to Vancouver on 2 until 4 December a Leap for Tech Talents who want to fuel the growth of Canada's tech market. Some of the best companies in Canada will be attending the fair, in hopes of filling over 40 positions.",
           "startDate": "2",
-          "endDate": "4"
+          "endDate": "4",
+          "deadline": "10/11/2019"
+        },
+        {
+          "eventType": "relocationsummit",
+          "title": "Relocation Summit 2019 - Vancouver, Canada",
+          "description": "The new edition of VanHack Relocation Summit brings together insights and lessons from exceptional leaders, makers, and innovators in the international tech market - for 8 days of inspired conversation and purposeful networking.",
+          "startDate": "27",
+          "endDate": "4",
+          "deadline": "26/11/2019"
         }
       ]
     }
   },
   "2020": {
-    "1": {
-      "1": [
+    "2": {
+      "3": [
         {
-          "eventType": "vanhackathon",
-          "title": "VanHackathon",
-          "description": "",
-          "startDate": "2",
-          "endDate": "4",
-          "deadline": "03/11/2019",
-          "isPremium": true
-        },
+          "eventType": "leap",
+          "title": "Leap Ontario",
+          "description": "VanHack is bringing to Toronto on 3 until 6 February a Leap for Tech Talents who want to fuel the growth of Canada'stech market. Some of the best companies in ONTARIO will be attending the fair, in hopes of filling over 60 positions. This is an amazing chance to do face-to-face interviews with international companies and land a job abroad. Don't miss it!",
+          "startDate": "3",
+          "endDate": "6",
+          "deadline": "25/01/2020"
+        }
+      ],
+      "4": [
         {
-            "eventType": "relocationsummit",
-            "title": "VanHackathon",
-            "description": "",
-            "startDate": "2",
-            "endDate": "4",
-            "deadline": "03/11/2019",
-            "isPremium": true
-          }
+          "eventType": "leap",
+          "title": "Leap Ontario",
+          "description": "VanHack is bringing to Toronto on 3 until 6 February a Leap for Tech Talents who want to fuel the growth of Canada'stech market. Some of the best companies in ONTARIO will be attending the fair, in hopes of filling over 60 positions. This is an amazing chance to do face-to-face interviews with international companies and land a job abroad. Don't miss it!",
+          "startDate": "3",
+          "endDate": "6",
+          "deadline": "25/01/2020"
+        }
+      ],
+      "5": [
+        {
+          "eventType": "leap",
+          "title": "Leap Ontario",
+          "description": "VanHack is bringing to Toronto on 3 until 6 February a Leap for Tech Talents who want to fuel the growth of Canada'stech market. Some of the best companies in ONTARIO will be attending the fair, in hopes of filling over 60 positions. This is an amazing chance to do face-to-face interviews with international companies and land a job abroad. Don't miss it!",
+          "startDate": "3",
+          "endDate": "6",
+          "deadline": "25/01/2020"
+        }
+      ],
+      "6": [
+        {
+          "eventType": "leap",
+          "title": "Leap Ontario",
+          "description": "VanHack is bringing to Toronto on 3 until 6 February a Leap for Tech Talents who want to fuel the growth of Canada'stech market. Some of the best companies in ONTARIO will be attending the fair, in hopes of filling over 60 positions. This is an amazing chance to do face-to-face interviews with international companies and land a job abroad. Don't miss it!",
+          "startDate": "3",
+          "endDate": "6",
+          "deadline": "25/01/2020"
+        }
+      ],
+      "24": [
+        {
+          "eventType": "leap",
+          "title": "Leap Calgary",
+          "description": "VanHack is bringing to Calgary on 24 until 27 February a Leap for Tech Talents who want to fuel the growth of Canada's tech market. Some of the best companies in Canada will be attending the fair, in hopes of filling over 60 positions. This is an amazing chance to do face-to-face interviews with international companies and land a job abroad. Don't miss it!",
+          "startDate": "24",
+          "endDate": "27",
+          "deadline": "20/02/2020"
+        }
+      ],
+      "25": [
+        {
+          "eventType": "leap",
+          "title": "Leap Calgary",
+          "description": "VanHack is bringing to Calgary on 24 until 27 February a Leap for Tech Talents who want to fuel the growth of Canada's tech market. Some of the best companies in Canada will be attending the fair, in hopes of filling over 60 positions. This is an amazing chance to do face-to-face interviews with international companies and land a job abroad. Don't miss it!",
+          "startDate": "24",
+          "endDate": "27",
+          "deadline": "20/02/2020"
+        }
+      ],
+      "26": [
+        {
+          "eventType": "leap",
+          "title": "Leap Calgary",
+          "description": "VanHack is bringing to Calgary on 24 until 27 February a Leap for Tech Talents who want to fuel the growth of Canada's tech market. Some of the best companies in Canada will be attending the fair, in hopes of filling over 60 positions. This is an amazing chance to do face-to-face interviews with international companies and land a job abroad. Don't miss it!",
+          "startDate": "24",
+          "endDate": "27",
+          "deadline": "20/02/2020"
+        }
+      ],
+      "27": [
+        {
+          "eventType": "leap",
+          "title": "Leap Calgary",
+          "description": "VanHack is bringing to Calgary on 24 until 27 February a Leap for Tech Talents who want to fuel the growth of Canada's tech market. Some of the best companies in Canada will be attending the fair, in hopes of filling over 60 positions. This is an amazing chance to do face-to-face interviews with international companies and land a job abroad. Don't miss it!",
+          "startDate": "24",
+          "endDate": "27",
+          "deadline": "20/02/2020"
+        }
       ]
     }
   }

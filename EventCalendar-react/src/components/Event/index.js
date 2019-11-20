@@ -37,6 +37,7 @@ export default class Event extends Component {
           </span>
           <span className="eventText">{this.state.eventDetails.title}</span>
           <FontAwesomeIcon
+            className="popover-close"
             icon={faTimesCircle}
             onClick={this.closePopover}
             size="lg"
@@ -50,6 +51,7 @@ export default class Event extends Component {
         </div>
         <div className="popover-actions">
           <span className="popover-apply">Apply</span>
+          <span className="popover-apply">Event Page</span>
         </div>
       </div>
     )
@@ -73,7 +75,7 @@ export default class Event extends Component {
         onClickOutside={() => this.closePopover()}
       >
         <span className={`event ${type} ${faded ? 'faded' : ''}`} 
-          onClick={() => this.openPopover(eventObj[0])}  
+          onClick={() => this.openPopover(eventObj)}  
         >
           {isPremium ? <span className="eventPremium"></span> : ""}
           <span className="eventType">{type.charAt(0)}</span>
