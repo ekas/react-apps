@@ -18,9 +18,21 @@ export default class CalendarDay extends Component {
           (isCurrentMonth ? "" : " different-month")
           // (date.isSame(selected) ? " selected" : "")
         }
-        onClick={() => select(day)}
+        // onClick={() => select(day)}
       >
         <span className="day-text">{number}</span>
+        <span className="eventContainer">
+          <span className="event">
+            <span className="eventType">L</span>
+            <span className="eventText">Leap Ontario</span>
+          </span>
+        </span>
+        <span className="eventContainer">
+          <span className="event">
+            <span className="eventType">L</span>
+            <span className="eventText">Leap Ontario s</span>
+          </span>
+        </span>
       </span>
     );
   }
