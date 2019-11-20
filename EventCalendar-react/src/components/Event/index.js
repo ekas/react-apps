@@ -11,8 +11,7 @@ export default class Event extends Component {
       isPremium,
       eventobj
     } = this.props;
-
-    // const {} = event;
+    
     return (
       <span className={`event ${type} ${faded ? 'faded' : ''}`}>
         {isPremium ? <span className="eventPremium"></span> : ""}

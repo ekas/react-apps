@@ -24,37 +24,6 @@ body {
   border-radius: 7px;
   border-top: solid 2px #ffffff;
 }
-.filter-section {
-  background-color: #ffffff;
-  flex: 0 0 350px;
-  .hr {
-    height: 55px;
-    background-color: #dbe4ec;
-    border-top-left-radius: 7px;
-    border-top: solid 2px #dbe4ec;
-    margin-top: -2px;
-  }
-  .navbar {
-    color: #6a7180;
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 600;
-  }
-  .navbar > span {
-    padding: 18px 0 18px;
-    flex: 1;
-    text-align: center;
-    cursor: pointer;
-  }
-  .navbar > span.active {
-    margin-top: -8px;
-    background-color: #ffffff;
-    border-top: solid 10px #1297df;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-}
 
 .calendar-pane {
   background-color: #e9edef;

@@ -10,12 +10,6 @@ class App extends Component {
         <Header />
         <div className="content-heading">Events Calendar</div>
         <div className="content">
-          <div className="filter-section">
-            <div className="hr navbar">
-              <span className="active">Calendar Filters</span>
-              <span>Schedulers</span>
-            </div>
-          </div>
           <div className="calendar-pane">
             <div className="hr">
               <span className="calendar-marker">
