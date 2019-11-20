@@ -15,12 +15,12 @@ export default class CalendarDay extends Component {
         className={
           "day" +
           (isToday ? " today" : "") +
-          (isCurrentMonth ? "" : " different-month") +
-          (date.isSame(selected) ? " selected" : "")
+          (isCurrentMonth ? "" : " different-month")
+          // (date.isSame(selected) ? " selected" : "")
         }
         onClick={() => select(day)}
       >
-        {number}
+        <span className="day-text">{number}</span>
       </span>
     );
   }

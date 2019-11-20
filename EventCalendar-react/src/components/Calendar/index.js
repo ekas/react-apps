@@ -36,16 +36,14 @@ export default class Calendar extends Component {
     });
   }
 
-  select(day) {
-    debugger;
-    this.setState({
-      selected: day.date,
-      month: day.date.clone()
-    });
-  }
+  // select(day) {
+  //   this.setState({
+  //     selected: day.date,
+  //     month: day.date.clone()
+  //   });
+  // }
 
   renderWeeks() {
-    debugger;
     let weeks = [];
     let done = false;
     let date = this.state.month
@@ -64,7 +62,7 @@ export default class Calendar extends Component {
           key={date}
           date={date.clone()}
           month={month}
-          select={day => this.select(day)}
+          // select={day => this.select(day)}
           selected={selected}
         />
       );

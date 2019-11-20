@@ -1,15 +1,16 @@
 .calendar {
   height: calc(100% - 55px);
-
+  display: flex;
+  flex-direction: column;
   .week {
+    flex: 1;
     border-top: solid 1px #cccccc;
   }
   .day {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: baseline;
     flex: 1 1;
-    height: 80px;
     border-left: solid 1px #cccccc;
     cursor: pointer;
     transition: all 0.2s;
@@ -19,10 +20,25 @@
   .day:first-child {
     border-left: solid 1px #e9edef;
   }
+  .day-text {
+    font-weight: 700;
+    font-size: 12px;
+    margin: 2px 2px 0 0;
+  }
   .different-month {
     color: #b6bac1;
     background-color: #f8f8f8;
   }
+  .today{
+    background-color: #F6FCFF;
+    .day-text {
+      background-color: #1297df;
+      color: #fff;
+      padding: 5px;
+      border-radius: 50%;
+    }
+  }
+  
   .calendar-row {
     display: flex;
     width: 100%;
