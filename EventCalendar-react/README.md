@@ -43,14 +43,24 @@ This will run a local instance of the application http://localhost:3000/
 ```bash
 npm i -g now
 now
+
 ```
+
+![Img 1](https://github.com/ekas/react-apps/blob/master/EventCalendar-react/screenshots/calendar_screenshot_5.PNG)
 
 ## Project Features
 
 - Event Calendar design is made super easy for the user is easily grab all the required information for the upcoming events or meetups.
-
-![Img 1](https://github.com/ekas/react-apps/blob/master/EventCalendar-react/screenshots/calendar_screenshot_1.PNG)
-
 - Even user has a choice to click on the event and could apply for it. For other more information user could visit to event page as well.
 
--
+## Project Screenshots
+
+![Img 2](https://github.com/ekas/react-apps/blob/master/EventCalendar-react/screenshots/calendar_screenshot_1.PNG)
+
+![Img 3](https://github.com/ekas/react-apps/blob/master/EventCalendar-react/screenshots/calendar_screenshot_2.PNG)
+
+![Img 4](https://github.com/ekas/react-apps/blob/master/EventCalendar-react/screenshots/calendar_screenshot_3.PNG)
+
+![Img 5](https://github.com/ekas/react-apps/blob/master/EventCalendar-react/screenshots/calendar_screenshot_4.PNG)
+
+## Thank You
