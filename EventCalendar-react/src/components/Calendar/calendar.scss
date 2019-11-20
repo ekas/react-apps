@@ -31,13 +31,9 @@
     background-color: #f8f8f8;
   }
   .today {
-    background-color: #f6fcff;
+    background-color: #a0cbe2;
     .day-text {
-      background-color: #1297df;
-      color: #fff;
-      padding: 5px;
-      border-radius: 50%;
-      margin-bottom: 2px;
+      color: #5b5d60;
     }
   }
 
@@ -80,7 +76,6 @@
         flex: 1 1;
         height: 20px;
         border-left: solid 1px #9b9797;
-        cursor: pointer;
         transition: all 0.2s;
         color: #6a7180;
         background-color: #d2d6df;

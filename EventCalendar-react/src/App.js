@@ -8,7 +8,13 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="content-heading">Events Calendar</div>
+        <div className="content-heading">
+          <span className="heading">
+            Events Calendar
+          </span>
+          <span className="book-call">Book Call</span>
+          <span className="request-call">Request Call</span>
+        </div>
         <div className="content">
           <div className="calendar-pane">
             <div className="hr">

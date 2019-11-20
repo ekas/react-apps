@@ -11,12 +11,11 @@ export default class CalendarDay extends Component {
         eventArr.push(
           <Event
             key={date}
-            eventObj={event}
+            eventObj={events}
             type={event.eventType}
             title={event.title}
             faded={isCurrentMonth ? false : true}
             isPremium={event.isPremium ? true : false}
-            
           />
         );
       });
@@ -26,10 +25,7 @@ export default class CalendarDay extends Component {
 
   render() {
     const {
-      // day,
       day: { date, isCurrentMonth, isToday, number }
-      // select,
-      // selected
     } = this.props;
 
     let eventsForDay;
@@ -49,9 +45,7 @@ export default class CalendarDay extends Component {
           "day" +
           (isToday ? " today" : "") +
           (isCurrentMonth ? "" : " different-month")
-          // (date.isSame(selected) ? " selected" : "")
         }
-        // onClick={() => select(day)}
       >
         <span className="day-text">{number}</span>
         <span className="eventContainer">

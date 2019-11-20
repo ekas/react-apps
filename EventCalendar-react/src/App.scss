@@ -13,9 +13,27 @@ body {
 }
 .content-heading {
   margin: 30px 50px 20px;
-  font-size: 30px;
-  font-weight: 700;
-  color: rgb(88, 99, 109) !important;
+  display: flex;
+  align-items: center;
+  .heading {
+    flex: 1;
+    align-self: flex-start;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(88, 99, 109) !important;
+  }
+  .book-call, .request-call{
+    cursor: pointer;
+    border: solid 2px #1297df;
+    padding: 6px 15px;
+    color: #1297df;
+    border-radius: 4px;
+    margin-left: 15px;
+  }
+  .book-call:hover, .request-call:hover {
+    background-color: #1297df;
+    color: #fff;
+  }
 }
 .content {
   flex: 2;
