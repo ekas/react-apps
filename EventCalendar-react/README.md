@@ -1,4 +1,4 @@
-# Customized Event Calendar Design in React
+# React Event Calendar Design
 
 Project is build using the create-react-app cli and being deployed over [Zeit](https://zeit.co/)
 
