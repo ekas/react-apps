@@ -1,0 +1,21 @@
+@import "../public/variables.scss";
+
+.App,
+html,
+body {
+  height: 100vh;
+  margin: 0;
+}
+.App {
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 500px;
+  height: 500px;
+}
+
