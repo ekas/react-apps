@@ -81,8 +81,7 @@
     }
   }
   
-  .main-container {
-    // margin-left: 50px;
+  .profile-container {
     z-index: 99;
     height: 64vh;
     flex: 3;
@@ -90,6 +89,56 @@
     -webkit-box-shadow: -1px -10px 31px 26px rgba(26,29,36,1);
     -moz-box-shadow: -1px -10px 31px 26px rgba(26,29,36,1);
     box-shadow: -1px -10px 31px 26px rgba(26,29,36,1);
+    display: flex;
+    flex-direction: row;
+
+    .profile-pic {
+      margin-top: -55px;
+      flex: 1;
+      text-align: right;
+      .photo{
+        height: 150px;
+        border: solid 2px rgba(255,255,255,0.2);
+        border-radius: 5px;
+      }
+    }
+
+    .profile {
+      margin-top: -65px;
+      flex: 3.5;
+      padding: 0 90px 10px 50px;
+
+      &-name {
+        font-size: 48px;
+        color: #fff;
+        font-weight: 300;
+      }
+
+      &-popularity-slider {
+        margin: 45px 0;
+        .slider-label {
+          color: #fff;
+          font-size: 25px;
+        }
+      }
+
+      &-bio {
+        background-color: #1A1D24;
+        color: #fff;
+        padding: 20px 25px;
+        line-height: 25px;
+        word-spacing: 2px;
+        border-radius: 5px;
+
+        &-heading {
+          font-size: 25px;
+          margin-bottom: 10px;
+        }
+
+      }
+    }
   }
 }
+
+
 
