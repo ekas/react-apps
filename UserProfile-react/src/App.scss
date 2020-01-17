@@ -1,0 +1,95 @@
+.App {
+  background-color: #2E2E36;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  height: 36vh;
+  overflow: hidden;
+  opacity: 1;
+  &-bg {
+    height: 72vh;
+    width: 100vw;
+  }
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+
+  .site-bar {
+    z-index: 999;
+    height: 100vh;
+    flex: 1;
+    background: rgb(37,37,45);
+    background: linear-gradient(180deg, rgba(37,37,45,0.2) 0%, rgba(37,37,45,1) 38%, rgba(37,37,45,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-logo-container {
+      flex: 1.5;
+      display: flex;
+      align-items: center;
+
+      .logo{
+        height: 122px;
+      }
+    }
+
+    &-names {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .name {
+        color: #fff;
+        text-align: center;
+        padding: 2px 0;
+        font-weight: 300;
+      }
+
+      .active {
+        background-color: rgba(255,255,255,0.2);
+      }
+      .blue {
+        color: #3DC8EF;
+      }
+      .g1 {
+        font-size: 13px; 
+      }
+      .g2 {
+        font-size: 18px; 
+      }
+      .g3 {
+        font-size: 23px; 
+      }
+      .g4 {
+        font-size: 28px; 
+      }
+      .g5 {
+        font-size: 38px; 
+      }
+      .g6 {
+        font-size: 48px; 
+      }
+
+    }
+  }
+  
+  .main-container {
+    // margin-left: 50px;
+    z-index: 99;
+    height: 64vh;
+    flex: 3;
+    align-self: flex-end;
+    -webkit-box-shadow: -1px -10px 31px 26px rgba(26,29,36,1);
+    -moz-box-shadow: -1px -10px 31px 26px rgba(26,29,36,1);
+    box-shadow: -1px -10px 31px 26px rgba(26,29,36,1);
+  }
+}
+
