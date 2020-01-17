@@ -46,6 +46,6 @@ now
 
 ```
 
-![Img 1](https://github.com/ekas/react-apps/blob/master/EventCalendar-react/screenshots/calendar_screenshot_1.PNG)
+![Img 1](https://github.com/ekas/react-apps/blob/master/EventCalendar2-react/screenshots/calendar_screenshot_1.png)
 
 ## Thank You
