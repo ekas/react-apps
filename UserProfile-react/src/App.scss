@@ -47,6 +47,7 @@
       flex-direction: column;
       width: 100%;
       .name {
+        cursor: pointer;
         color: #fff;
         text-align: center;
         padding: 2px 0;
@@ -60,22 +61,22 @@
         color: #3DC8EF;
       }
       .g1 {
-        font-size: 13px; 
+        font-size: 16px; 
       }
       .g2 {
-        font-size: 18px; 
+        font-size: 20px; 
       }
       .g3 {
-        font-size: 23px; 
+        font-size: 24px; 
       }
       .g4 {
-        font-size: 28px; 
+        font-size: 30px; 
       }
       .g5 {
-        font-size: 38px; 
+        font-size: 35px; 
       }
       .g6 {
-        font-size: 48px; 
+        font-size: 42px; 
       }
 
     }
@@ -107,21 +108,42 @@
       margin-top: -65px;
       flex: 3.5;
       padding: 0 90px 10px 50px;
-
       &-name {
         font-size: 48px;
         color: #fff;
         font-weight: 300;
       }
-
       &-popularity-slider {
         margin: 45px 0;
+        display: flex;
+        flex-direction: row;
         .slider-label {
           color: #fff;
           font-size: 25px;
         }
-      }
+        .StepRangeSlider {
+          padding: 0;
+          margin: 14px 0 0 30px;
 
+          &__tooltip {
+            display: none;
+          }
+          &__track {
+            height: 4px;
+            background-color: #1A1D24;
+            border: none;
+          }
+          &__handle {
+            top: 16%;
+          }
+          &__thumb {
+            border-radius: 15px;
+            width: 25px;
+            height: 25px;
+            border: none;
+          }
+        }
+      }
       &-bio {
         background-color: #1A1D24;
         color: #fff;
@@ -129,16 +151,12 @@
         line-height: 25px;
         word-spacing: 2px;
         border-radius: 5px;
-
         &-heading {
           font-size: 25px;
           margin-bottom: 10px;
+          display: block;
         }
-
       }
     }
   }
 }
-
-
-
