@@ -1,0 +1,17 @@
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+    &_logo {
+        width: 110px;
+    }
+    &_social {
+        display: flex;
+
+        &_tab {
+            margin: 0 4px;
+        }
+    }
+}

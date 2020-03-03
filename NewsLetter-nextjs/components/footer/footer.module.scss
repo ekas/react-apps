@@ -1,0 +1,15 @@
+.footer_container {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 150px 50px 0;
+}
+.footer_number {
+    margin-left: 10px;
+    font: 23px;
+    font-weight: 700;
+    letter-spacing: 0.54px;
+    color: #101010;
+}

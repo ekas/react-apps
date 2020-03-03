@@ -1,0 +1,40 @@
+.app_container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    .bg_container{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        &_img {
+            height: 550px;
+        }
+    }
+    .main_container {
+        flex: 1;
+        &_heading {
+            letter-spacing: 1px;
+            color: #FD7C00;
+            font-size: 40px;
+            font-weight: 700;
+        }
+        &_follow {
+            letter-spacing: 0.54px;
+            color: #101010;
+            font-size: 25px;
+            margin: -10px 0 60px;
+        }
+        &_subscribe {
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
