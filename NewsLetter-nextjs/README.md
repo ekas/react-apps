@@ -37,3 +37,7 @@ yarn dev
 ```
 
 This will run a local instance of the application http://localhost:3000/
+
+![Img 1](https://github.com/ekas/react-apps/blob/master/NewsLetter-nextjs/screenshots/newsletter.png)
+
+## Thank You
