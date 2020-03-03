@@ -28,8 +28,6 @@ cd NewsLetter-nextjs/
 yarn
 ```
 
-This will use `npm` that is included with `nodejs` to install project dependencies.
-
 - Step 3: Start the project.
 
 ```bash
