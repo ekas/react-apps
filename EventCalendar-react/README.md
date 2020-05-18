@@ -2,7 +2,7 @@
 
 Project is build using the create-react-app cli and being deployed over [Zeit](https://zeit.co/)
 
-[Demo](https://userprofile-react-hg2x63ddz.now.sh/) is also available
+[Demo](https://eventcalendar-i4yshfylh.now.sh/) is also available
 
 ## Project Build Instructions
 
