@@ -2,7 +2,7 @@
 
 Project is build using the create-react-app cli and being deployed over [Zeit](https://zeit.co/)
 
-[Demo](https://design.ekaspreetsingh.tech/) is also available 
+[Demo](https://userprofile-react-hg2x63ddz.now.sh/) is also available
 
 ## Project Build Instructions
 
@@ -36,4 +36,4 @@ This will use `npm` that is included with `nodejs` to install project dependenci
 npm run start
 ```
 
-This will run a local instance of the application http://localhost:3000/
+This will run a local instance of the application `http://localhost:3000/`
